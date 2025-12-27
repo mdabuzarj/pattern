@@ -19,5 +19,5 @@ public class javalect7 {
         PrintFactorial(n);
 
 
-    }
+    }   
 }
