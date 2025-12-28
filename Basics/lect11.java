@@ -15,14 +15,13 @@ public class lect11 {
                 numbers[i][j] = sc.nextInt();
             }
         }
-
-        // Output
-        System.out.println("Matrix:");
+        int x = sc.nextInt();
         for (int i = 0; i < row; i++) {
             for (int j = 0; j < col; j++) {
-                System.out.print(numbers[i][j] + " ");
+                if(numbers[i][j] == x){
+                System.out.print("x found at index :"+ i +" " +j +" ");
+                }
             }
-            System.out.println();
         }
     }
 }
