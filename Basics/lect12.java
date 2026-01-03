@@ -3,14 +3,17 @@ public class lect12 {
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
         //nextline for full name
-        String name = sc.next();
+        String name1 = sc.next();
+        String name2 = sc.next();
 
-        for(int i=0;i<name.length();i++){
-            System.out.println(name.charAt(i));
-        }
-        //.length() for len of str
+        
+        //.length() for len of str 
         //System.out.println(name.length());
-
+        if(name1.compareTo(name2)==0){
+            System.out.println("str is equal");
+        }else{
+            System.out.println("str not eqaul");
+        }
     }
     
 }
